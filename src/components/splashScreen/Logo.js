@@ -6,7 +6,12 @@ import { adjustableSize } from '../../../utils/uiHandler.js/Handlers';
 const Logo = () => {
   return (
     <View>
-      <Text style={[globalStyles.logo, { fontSize: adjustableSize(30) }]}>
+      <Text
+        style={[
+          globalStyles.logo,
+          { fontSize: adjustableSize(30), textAlign: 'center' },
+        ]}
+      >
         TASK-WAN
       </Text>
     </View>
